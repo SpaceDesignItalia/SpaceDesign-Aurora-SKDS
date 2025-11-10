@@ -1,0 +1,30 @@
+{
+  "name": "spacedesign-aurora-skds",
+  "version": "1.0.0",
+  "description": "Monorepo contenente librerie per React, Vue e Express",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:react": "cd packages/react-library && npm run build",
+    "build:vue": "cd packages/vue-library && npm run build",
+    "build:express": "cd packages/express-library && npm run build",
+    "build:all": "npm run build:react && npm run build:vue && npm run build:express"
+  },
+  "keywords": [
+    "react",
+    "vue",
+    "express",
+    "spacedesign",
+    "aurora",
+    "libraries"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
+

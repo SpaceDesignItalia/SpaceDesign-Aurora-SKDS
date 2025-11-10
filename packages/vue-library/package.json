@@ -1,0 +1,44 @@
+{
+  "name": "@spacedesign-aurora/vue-library",
+  "version": "1.0.0",
+  "description": "Libreria di funzioni utility e composables per Vue - SpaceDesign Aurora",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vue",
+    "spacedesign",
+    "aurora",
+    "utilities",
+    "functions",
+    "composables",
+    "helpers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.6.1",
+    "vue": "^3.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
+
